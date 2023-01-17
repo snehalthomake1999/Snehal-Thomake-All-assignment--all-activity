@@ -1,0 +1,53 @@
+<html>
+<body>
+
+<h1> Arrays </h1>
+
+<p>  Declare the Array </p>
+
+<script>
+var weeks=["sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.write(weeks+"<br>");
+</script>
+
+<h2>  Using for loop in the Array </h2>
+<script>
+var weeks=["sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+	for(var i=0;i< weeks.length;i++)
+	{ 
+		document.write(weeks[i]+"<br>");
+	}
+</script>
+
+<h2> for of loop  </h2>
+<script>
+var weeks=["sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var girls =["snehal","pooja","mohini","rutuja"];
+
+	for(var weeks of girls)
+	{ 
+		document.write(weeks+"<br>");
+	}
+
+</script>
+
+
+<h2>  Using for in loop in the Array </h2>
+
+<script>
+var flowers=[ "rose", "lotus", "jasmine", "sunflower", "daisy", "tulip", "magnolia", "lavender"]
+var txt = "";
+for (var A in flowers) 
+{
+  txt += (flowers[A] + "<br>"); 
+}
+document.write(flowers+"<br>");
+
+</script>
+
+
+
+
+</body>
+</html>
+

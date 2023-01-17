@@ -1,0 +1,42 @@
+<html>
+<body>
+
+<h1>Java Script Strings Replace</h1>
+
+<p id="string"> Today we are see about the regular string.</p>
+
+<script>
+var s = document.getElementById("string").innerHTML; 
+var replace = s.replace(/are/gi, "was");
+document.getElementById("string").innerHTML = replace ;
+</script>
+<h1>Java Script Strings Match</h1>
+<script>
+var m = " Be strong on heart not physical";
+var match = m.match(/o/gi);
+document.write(match);
+</script>
+
+<h1>Java Script Strings split </h1>
+<script>
+var y = "Hi i am snehal from kolhapur.";
+var x = y.split(" ");
+document.write(x); 
+</script>
+
+<p> <b> 2nd method of split </b></p>
+<script>
+var y = "Hi i am snehal from kolhapur.";
+var x = y.split("");
+document.write(x); 
+</script>
+
+<p><b> 3rd method of split </b></p>
+<script>
+var y = "Hi i am snehal from kolhapur.";
+var x = y.split(" ",4);
+document.write(x); 
+</script>
+
+</body>
+</html>

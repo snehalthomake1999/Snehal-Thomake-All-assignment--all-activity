@@ -1,0 +1,66 @@
+
+<html>
+<body>
+
+<h1>JavaScript using join Arrays</h1>
+
+<script>
+var flowers = ["rose", "lotus", "jasmine", "sunflower", "daisy", "tulip", "magnolia"];
+var creat = flowers.join( " - ");
+document.write(creat);
+</script>
+
+<h1> slice array</h1>
+<script>
+var flowers = ["rose", "lotus", "jasmine", "sunflower", "daisy", "tulip", "magnolia"];
+const myslice = flowers.slice(-3, -1);
+document.write(myslice);
+</script>
+
+<h1> concat array</h1>
+<script>
+var flowers = ["rose", "lotus", "jasmine", "sunflower", "daisy", "tulip", "magnolia"];
+var girls = ["Saanvi","Aadya","Kiara","Diya","Pihu","Prisha"];
+var names=girls.concat(flowers);
+document.write(names);
+</script>
+
+<h1> index of </h1>
+<script>
+var girls = ["Saanvi","Aadya","Kiara","Diya","Pihu","Prisha"];
+var list = girls.indexOf("Kiara", 1);
+document.write(list);
+</script>
+
+<h1> lastindex of </h1>
+<script>
+var flowers = ["rose", "lotus", "jasmine", "sunflower", "daisy"];
+var first = flowers.lastIndexOf("sunflower",4);
+document.write(first);
+</script>
+
+<h1> boolean object</h1>
+
+<script>
+document.write(Boolean(45 < 100));
+</script>
+
+<h1> date object</h1>
+<script>
+var birthdate = new Date(1999, 9, 28);
+document.write(birthdate);
+</script>
+
+<h1> object </h1>
+<script>
+var xyz = {
+  firstName: "Snehal",
+  lastName: "Thomake",
+  age: 22,
+  eyeColor: "blck"
+};
+
+document.write (xyz.firstName + " is " + xyz.age + " years old.");
+</script>
+</body>
+</html>

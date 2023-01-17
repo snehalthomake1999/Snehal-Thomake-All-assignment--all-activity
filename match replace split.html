@@ -1,0 +1,57 @@
+<html>
+<body>
+
+
+<h1 style="color:red;">Java Script Strings Replace</h1>
+
+<p id="string" style="color:blue;"> Today we are see about the regular string.</p>
+
+<script>
+var s = document.getElementById("string").innerHTML; 
+var replace = s.replace(/are/gi, "was");
+document.getElementById("string").innerHTML = replace ;
+</script>
+
+<h1 style="color:red;">Java Script Strings Match</h1>
+<script>
+var m = " Be strong on heart not physical";
+var match = m.match(/o/gi);
+document.write(match);
+</script>
+
+<h1 style="color:red;">Java Script Strings split </h1>
+<script>
+var y = "Hi i am snehal from kolhapur.";
+var x = y.split(" ");
+document.write(x); 
+</script>
+
+<p style="color:blue;"> <b> 2nd method of split </b></p>
+<script>
+var y = "Hi i am snehal from kolhapur.";
+var x = y.split("");
+document.write(x); 
+</script>
+
+<p style="color:blue;"><b> 3rd method of split </b></p>
+<script>
+var y = "Hi i am snehal from kolhapur.";
+var x = y.split(" ",4);
+document.write(x); 
+</script>
+
+<h1 style="color:red;">Java Script Strings serach</h1>
+<script>
+var k = "Happiness never decreases by being shared.";
+var p = k.search(/by/i);
+document.write(p);
+</script>
+
+<p style="color:blue;"><b> 2rd method of search </b></p>
+<script>
+var k = "Happiness never decreases by being shared.";
+var p = k.search("never");
+document.write(p);
+</script>
+</body>
+</html>

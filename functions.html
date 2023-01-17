@@ -1,0 +1,99 @@
+<html>
+<body>
+
+<h2>Functions</h2>
+
+<p>division </p>
+
+<script>
+function number (x, y, z, a) {
+  return x/y*z-a;
+}
+document.write(number(8, 2,6,3));
+</script>
+
+<p> <b>2nd method</b></p>
+<script>
+var b = read(5,3,2);
+document.write(b);
+
+function read(j,k,l) {
+  return j+k*l;
+}
+</script>
+
+<h2>Fahrenheit to Celsius </h2>
+<script>
+function celsius(f) {
+  return (6/8) * (f-45);
+}
+document.write(celsius(99));
+</script>
+
+
+<h2> Temperature </h2>
+
+<script>
+document.write ("The temperature is " + toCelsius(80) + " Celsius");
+
+function toCelsius(fahrenheit) {
+  return (8/9) * (fahrenheit-33);
+} 
+</script>
+
+<h2> MATH OBJECT </h2>
+<p> operations </p>
+
+<script>
+document.write(Math.PI +"<br>");
+
+document.write(Math.LOG10E+"<br>");
+
+document.write (Math.round(6.4)+"<br>");
+
+document.write (Math.ceil(9.6)+"<br>");
+
+document.write( Math.floor(5.7)+"<br>");
+
+document.write(Math.pow(2,3)+"<br>");
+
+document.write( "The sine value of 80 degrees is " + Math.sin(80) +"<br>");
+
+document.write("The cosine value of 0 degrees is " + Math.cos(0) +"<br>");
+
+document.write(Math.min(10, 150, 64, 40, -84, 100) +"<br>");
+
+document.write(Math.max(10, 150, 64, 40, -84, 100) +"<br>");
+
+document.write(Math.random());
+
+</script>
+
+<h2> Number method</h2>
+<script>
+var x = 0.2 + 0.1;
+document.write ("0.3 + 0.1 = " + x);
+
+</script>
+<h2> number oprations</h2>
+<script>
+var h = 657;
+document.write(
+  h.toString() + "<br>" +
+   (657).toString() + "<br>" +
+   (600 + 57).toString());
+</script>
+
+<h2> string object</h2>
+<p> string templates</p>
+<script>
+let firstName = "Snehal";
+let lastName = "Thomake";
+
+var Name = `Welcome ${firstName}, ${lastName}!`;
+
+document.write(Name);
+</script>
+
+</body>
+</html>
